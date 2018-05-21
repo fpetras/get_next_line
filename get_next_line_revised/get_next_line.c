@@ -13,10 +13,7 @@
 #include "get_next_line.h"
 
 /*
-** revised GNL with no memory leaks and a
-** provisional fix to enable proper reading from stdin,
 ** only works with BUFF_SIZE 1
-** 😌
 */
 
 static char	*remaining_lines(char *file)
